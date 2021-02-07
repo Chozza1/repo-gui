@@ -65,10 +65,8 @@ public class Homework {
         else {
             System.out.println("Год не високосный");
         }
-
-
+        
     }
-
 
 }
 
