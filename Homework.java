@@ -1,6 +1,5 @@
 public class Homework {
     public static void main(String[] args) {
-        task_8();
         int a = 1;
         double b = 0.1;
         float c = 0.001f;
@@ -8,23 +7,15 @@ public class Homework {
         short e = 12;
         byte f = 127;
         char g = 12;
-        boolean h;
+        boolean h = true;
     }
 
-    public static float task_3() {
-       float a = 0.0002f;
-       float b = 0.00001f;
-       float c = 1.54333f;
-       float d = 1.123123f;
-       float e = a*(b+(c/d));
-       return e;
+    public static float task_3(float a, float b, float c, float d) {
+        return a*(b+(c/d));
     }
 
-    public static boolean task_4() {
-        int a = 2;
-        int b = 7;
-        int c = a + b;
-        if (c>=10 && c<=20){
+    public static boolean task_4(int a, int b) {
+        if (a+b>=10 && a-b<=20){
             return true;
         }
        else {
@@ -32,8 +23,7 @@ public class Homework {
        }
     }
 
-    public static void task_5() {
-        int a = -10;
+    public static void task_5(int a) {
         if (a>=0){
             System.out.println(" Число положительное");
         }
@@ -42,22 +32,19 @@ public class Homework {
         }
     }
 
-    public static boolean task_6() {
-        int a = 1;
+    public static boolean task_6(int a) {
         if (a <= 0) {
             return true;
         }
         return false;
     }
 
-    public static void task_7(String Мир){
-        Мир = "Мир";
-        System.out.println("Привет" + Мир);
+    public static void task_7(String ch){
+        System.out.println("Привет " + ch);
     }
 
-    public static void task_8(){
-        int yaer;
-        yaer=1968;
+
+    public static void task_8(int yaer){
         System.out.println();
         if ((yaer%400==0 || yaer%100!=0) &&(yaer%4==0)) {
             System.out.println("Год високосный");
@@ -66,9 +53,7 @@ public class Homework {
             System.out.println("Год не високосный");
         }
 
-
     }
-
 
 }
 
