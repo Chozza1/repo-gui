@@ -10,21 +10,19 @@ public class Homework {
         boolean h = true;
     }
 
+
     public static float task_3(float a, float b, float c, float d) {
         return a*(b+(c/d));
     }
 
     public static boolean task_4(int a, int b) {
         if (a+b>=10 && a-b<=20){
-            return true;
-        }
-       else {
-             return false;
-       }
-    }
+          return true;}
+          return falsw;
+  
 
     public static void task_5(int a) {
-        if (a>=0){
+       if (a>=0){
             System.out.println(" Число положительное");
         }
         else {
@@ -33,6 +31,7 @@ public class Homework {
     }
 
     public static boolean task_6(int a) {
+
         if (a <= 0) {
             return true;
         }
