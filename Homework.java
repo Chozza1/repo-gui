@@ -10,30 +10,19 @@ public class Homework {
         boolean h = true;
     }
 
-    public static float task_3(float a, float b, float c, float d, float e) {
-       a = 0.0002f;
-       b = 0.00001f;
-       c = 1.54333f;
-       d = 1.123123f;
-       e = a*(b+(c/d));
-       return e;
+
+    public static float task_3(float a, float b, float c, float d) {
+        return a*(b+(c/d));
     }
 
-    public static boolean task_4(int a, int b, int c) {
-        a = 2;
-        b = 7;
-        c = a + b;
-        if (c>=10 && c<=20){
-            return true;
-        }
-       else {
-             return false;
-       }
-    }
+    public static boolean task_4(int a, int b) {
+        if (a+b>=10 && a-b<=20){
+          return true;}
+          return falsw;
+  
 
     public static void task_5(int a) {
-        a = -10;
-        if (a>=0){
+       if (a>=0){
             System.out.println(" Число положительное");
         }
         else {
@@ -42,21 +31,19 @@ public class Homework {
     }
 
     public static boolean task_6(int a) {
-        a = 1;
+
         if (a <= 0) {
             return true;
         }
         return false;
     }
 
-    public static void task_7(String Мир){
-        Мир = "Мир";
-        System.out.println("Привет" + Мир);
+    public static void task_7(String ch){
+        System.out.println("Привет " + ch);
     }
 
 
     public static void task_8(int yaer){
-        yaer=1968;
         System.out.println();
         if ((yaer%400==0 || yaer%100!=0) &&(yaer%4==0)) {
             System.out.println("Год високосный");
