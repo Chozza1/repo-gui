@@ -11,7 +11,6 @@ public class Homework_4 {
     private static final char O_DOT = 'O';
     private static Scanner sc;
 
-
     public static void main(String[] args) {
 
         initMap();
